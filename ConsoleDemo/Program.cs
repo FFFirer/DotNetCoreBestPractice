@@ -20,6 +20,7 @@ namespace ConsoleDemo
             // 程序运行完成后可以直接释放退出程序
             using(var host = Host.CreateDefaultBuilder()
                 .ConfigureLogging(logging => {
+                    // 注册日志
                     logging.ClearProviders();
                     logging.AddConsole();
                 })

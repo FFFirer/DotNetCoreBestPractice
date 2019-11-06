@@ -1,0 +1,12 @@
+{
+  "Option1": "this is a option",
+  "Option2": 10,
+  "SubOptions": {
+    "suboption1": "this is a sub option",
+    "suboption2": 100
+  },
+  "SnapshotOptions": {
+    "Snapshot1": "this is a snapshot option",
+    "Snapshot2": 1000
+  }
+}

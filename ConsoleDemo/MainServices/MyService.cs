@@ -8,6 +8,7 @@ using ConsoleDemo.DemoServices;
 using ConsoleDemo.Domain.AppOptions;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Logging;
+//using NLog.Extensions.Logging;
 using NLog;
 
 namespace ConsoleDemo.MainServices

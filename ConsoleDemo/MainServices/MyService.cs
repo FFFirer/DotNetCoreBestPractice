@@ -8,6 +8,7 @@ using ConsoleDemo.DemoServices;
 using ConsoleDemo.Domain.AppOptions;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Logging;
+using NLog;
 
 namespace ConsoleDemo.MainServices
 {
@@ -19,7 +20,7 @@ namespace ConsoleDemo.MainServices
         private MySubOptions _suboption;
         private MySnapshotOptions _snapshotoption;
         private IServiceFactory _factory;
-        private ILogger _logger;
+        private ILogger<MyService> _logger;
         public MyService(
             ICommonService commonService, 
             IHostApplicationLifetime hostApplicationLifetime, 

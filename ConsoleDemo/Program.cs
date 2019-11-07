@@ -8,6 +8,8 @@ using ConsoleDemo.Domain.AppOptions;
 using ConsoleDemo.MainServices;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NLog.Extensions.Logging;
+using NLog;
 
 namespace ConsoleDemo
 {
@@ -19,17 +21,18 @@ namespace ConsoleDemo
 
             // 程序运行完成后可以直接释放退出程序
             using(var host = Host.CreateDefaultBuilder()
-                .ConfigureLogging(logging => {
-                    // 注册日志
-                    logging.ClearProviders();
-                    logging.AddConsole();
-                })
                 .ConfigureAppConfiguration((hostcontext, appconfig)=> {
                     appconfig.AddJsonFile("appsetting.json", optional: true, reloadOnChange: true);
                     appconfig.Build();
                 })
                 .ConfigureServices((hostcontext, services) =>
                 {
+                    services.AddLogging(logbuilder =>
+                    {
+                        logbuilder.ClearProviders();
+                        logbuilder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Debug);
+                        logbuilder.AddNLog("NLog.config");
+                    });
                     // 注册Options
                     services.AddOptions();
                     //var config = new ConfigurationBuilder().AddJsonFile("appsetting.json", optional:true, reloadOnChange:true).Build();

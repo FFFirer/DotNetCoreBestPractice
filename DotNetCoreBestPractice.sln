@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29418.71
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleDemo", "ConsoleDemo\ConsoleDemo.csproj", "{4B8AC15C-F91E-4878-BF36-8AAD9FDE7886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDemo", "WebDemo\WebDemo.csproj", "{BC58D305-3D8F-4B5C-A948-FB8675698D0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDemo", "WebDemo\WebDemo.csproj", "{BC58D305-3D8F-4B5C-A948-FB8675698D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseScriptTool", "DatabaseScriptTool\DatabaseScriptTool.csproj", "{F4375B67-3789-47F8-B8EF-B782C73BEBEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelTool", "ExcelTool\ExcelTool.csproj", "{1437B113-911F-4A74-AC1A-F9A8B8B9470F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancelableConsoleApp", "CancelableConsoleApp\CancelableConsoleApp.csproj", "{244BC8C8-5700-444E-B71B-DBEE04E4A422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBDemo", "MongoDBDemo\MongoDBDemo.csproj", "{5967E18E-B53E-4C13-AE99-5B566AC5EB32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{BC58D305-3D8F-4B5C-A948-FB8675698D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC58D305-3D8F-4B5C-A948-FB8675698D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC58D305-3D8F-4B5C-A948-FB8675698D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4375B67-3789-47F8-B8EF-B782C73BEBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4375B67-3789-47F8-B8EF-B782C73BEBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4375B67-3789-47F8-B8EF-B782C73BEBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4375B67-3789-47F8-B8EF-B782C73BEBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1437B113-911F-4A74-AC1A-F9A8B8B9470F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1437B113-911F-4A74-AC1A-F9A8B8B9470F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1437B113-911F-4A74-AC1A-F9A8B8B9470F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1437B113-911F-4A74-AC1A-F9A8B8B9470F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244BC8C8-5700-444E-B71B-DBEE04E4A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244BC8C8-5700-444E-B71B-DBEE04E4A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244BC8C8-5700-444E-B71B-DBEE04E4A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244BC8C8-5700-444E-B71B-DBEE04E4A422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5967E18E-B53E-4C13-AE99-5B566AC5EB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5967E18E-B53E-4C13-AE99-5B566AC5EB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5967E18E-B53E-4C13-AE99-5B566AC5EB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5967E18E-B53E-4C13-AE99-5B566AC5EB32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

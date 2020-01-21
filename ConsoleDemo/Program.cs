@@ -9,6 +9,7 @@ using ConsoleDemo.MainServices;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NLog.Extensions.Logging;
+using Microsoft.Extensions.Hosting;
 using NLog;
 
 namespace ConsoleDemo
@@ -42,7 +43,7 @@ namespace ConsoleDemo
                     services.Configure<MySnapshotOptions>(config.GetSection("SnapshotOptions"));
                     // 注册接口
                     services.AddScoped<IServiceFactory, ServiceFactory>();
-                    services.AddScoped<ICommonService, CommonService>();
+                    services.AddScoped<ICommonService, ChildCommonService>();
                     // 注册服务
                     services.AddHostedService<MyService>();
                     

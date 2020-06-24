@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancelableConsoleApp", "Can
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDBDemo", "MongoDBDemo\MongoDBDemo.csproj", "{5967E18E-B53E-4C13-AE99-5B566AC5EB32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseKnowledgeApp", "BaseKnowledgeApp\BaseKnowledgeApp.csproj", "{80E63C59-7057-4B87-9209-9E8C54ABAC72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseKnowledgeApp", "BaseKnowledgeApp\BaseKnowledgeApp.csproj", "{80E63C59-7057-4B87-9209-9E8C54ABAC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo", "AttributeDemo\AttributeDemo.csproj", "{06C1C5F7-3ED1-4DBB-983E-45DE48968EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{80E63C59-7057-4B87-9209-9E8C54ABAC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E63C59-7057-4B87-9209-9E8C54ABAC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E63C59-7057-4B87-9209-9E8C54ABAC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C1C5F7-3ED1-4DBB-983E-45DE48968EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C1C5F7-3ED1-4DBB-983E-45DE48968EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C1C5F7-3ED1-4DBB-983E-45DE48968EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C1C5F7-3ED1-4DBB-983E-45DE48968EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
